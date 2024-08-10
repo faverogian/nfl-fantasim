@@ -59,6 +59,7 @@ over the young stock of receivers who are receiving ever more acclaim in 2024.
 
 ## Data
 The simulator uses two CSV files:
-FantasyPros_2023_Overall_ADP_Rankings.csv: ADP data for the 2023 season
-FantasyPros_Fantasy_Football_Points_HALF.csv: Half PPR data for the 2023 season
-These files should be placed in a data directory within the project root.
+
+* **FantasyPros_2023_Overall_ADP_Rankings.csv**: ADP data for the 2023 season
+
+* **FantasyPros_Fantasy_Football_Points_HALF.csv**: Half PPR data for the 2023 season
