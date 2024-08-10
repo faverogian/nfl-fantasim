@@ -1,6 +1,7 @@
-# NFL FantaSIM
+# NFL FantaSIM: A Data Driven Look at Common Drafting Strategies
 
-An in-depth analysis of draft strategy for optimal fantasy football performance, using data-driven approaches and simulations.
+An in-depth analysis of draft strategy for optimal fantasy football performance, using data-driven approaches and simulations. 
+
 This project is licensed under the MIT License.
 
 Author
@@ -16,10 +17,10 @@ Take a look at the notebook included for an annotated look at the assumptions an
 ```bash
 python nfl_fantasy_simulator.py <num_simulations> <order_system> <strategy> <num_teams>
 ```
-- <num_simulations>: Number of simulations to run (e.g., 1000)
-- <order_system>: Draft order system ('snake' or 'linear')
-- <strategy>: Draft strategy ('BPA', 'WR_HEAVY', 'RB_HEAVY', 'EARLY_QB', 'EARLY_TE')
-- <num_teams>: Number of teams in the fantasy league (e.g., 12)
+- **num_simulations**: Number of simulations to run (e.g., 1000)
+- **order_system**: Draft order system ('snake' or 'linear')
+- **strategy**: Draft strategy ('BPA', 'WR_HEAVY', 'RB_HEAVY', 'EARLY_QB', 'EARLY_TE')
+- **num_teams**: Number of teams in the fantasy league (e.g., 12)
 
 ## Description
 Here we are using a consensus ADP 2023 ranking from FantasyPros according to 3 different sources: ESPN, Yahoo, and Sleeper for a 12 team league with half PPR scoring. 
