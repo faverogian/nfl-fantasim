@@ -33,10 +33,7 @@ The optimal line-up is provided on a weekly basis - however this does not accoun
 Monte Carlo simulations should aid in fixing this issue (e.g., drafting Anthony Richardson in 2023).
 
 ## Requirements
-Python 3.x
-pandas library
-tqdm library
-nfl_fantasy library (for fantasy roster and draft strategy classes)
+- Python 3.x
 
 ## Data
 The simulator uses two CSV files:
