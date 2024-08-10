@@ -10,6 +10,9 @@ Gian Favero, 2024
 
 ## Usage
 
+## Requirements
+- Python 3.x
+
 ### Jupyter Notebook Tutorial
 Take a look at the notebook included for an annotated look at the assumptions and development of the simulation environment.
 
@@ -33,8 +36,26 @@ However, it is an assumption that follows the claim that with modern information
 The optimal line-up is provided on a weekly basis - however this does not account for season ending injuries at positions with no substitute. 
 Monte Carlo simulations should aid in fixing this issue (e.g., drafting Anthony Richardson in 2023).
 
-## Requirements
-- Python 3.x
+## Sample Results
+| **Strategy** | **Total Points** |
+| --- | --- |
+| BPA | 1687.00 |
+| WR_HEAVY | 1635.66 |
+| RB_HEAVY | 1740.78 |
+| EARLY_QB | 1713.70 |
+| EARLY_TE | 1682.98 |
+
+**Simulation Details**
+
+* Number of teams: 12
+* Number of simulations: 1000
+* Draft order: Snake
+* Points: Half-PPR
+
+##  Analysis
+The common consensus among many on the platform is that zero RB or WR heavy drafting strategies reign supreme in 2024. In half-PPR or standard leagues, perhaps there is still time to zig while the majority begin to zag.
+Top running backs still provide high reward to fantasy owners that are willing to stick it out at the top of the draft and choose dual-threat, high volume options (Christian McCaffrey, Bijan Robinson, Breece Hall) 
+over the young stock of receivers who are receiving ever more acclaim in 2024.
 
 ## Data
 The simulator uses two CSV files:
