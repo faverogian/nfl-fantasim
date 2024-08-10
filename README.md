@@ -18,7 +18,7 @@ Take a look at the notebook included for an annotated look at the assumptions an
 
 ### Command-line Usage:
 ```bash
-python nfl_fantasy_simulator.py <num_simulations> <order_system> <strategy> <num_teams>
+python monte_carlo_sim.py <num_simulations> <order_system> <strategy> <num_teams>
 ```
 - **num_simulations**: Number of simulations to run (e.g., 1000)
 - **order_system**: Draft order system ('snake' or 'linear')
