@@ -41,7 +41,7 @@ Monte Carlo simulations should aid in fixing this issue (e.g., drafting Anthony 
 | --- | --- |
 | BPA | 1687.00 |
 | WR_HEAVY | 1635.66 |
-| RB_HEAVY | 1740.78 |
+| **RB_HEAVY** | **1740.78** |
 | EARLY_QB | 1713.70 |
 | EARLY_TE | 1682.98 |
 
